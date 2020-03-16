@@ -1,0 +1,17 @@
+# Introdução
+
+## Introdução
+
+Durante o desenvolvimento de um software, talvez uma das tarefas mais críticas seja garantir sua qualidade e estabilidade. Geralmente, fazemos isso aplicando-se testes variados em nossas aplicações. A realização de testes é de extrema importância durante a realização de um projeto, pois irá auxiliar a detecção e correção de bugs e, consequentemente, fará com que o produto final seja muito mais confiável, estável e, por que não, rentável.
+
+É de suma importância para o ciclo de vida de um software que este apresente a melhor qualidade possível. Quando essa perseguição à qualidade e estabilidade do software não é levada com a seriedade que deveria, corremos um risco muitíssimo grande de produzir softwares que sequer vão ser utilizados, ou então, farão com que seus usuários fiquem com bastante raiva dele. Isso é mais crítico ainda quando a falta de qualidade do software é tão grande que essa má fama acaba se estendendo à organização que o constrói e gerencia. Um exemplo bem palpável desse tipo de situação é o do Windows Millenium (Windows ME), lançado pela Microsoft em 2000.
+
+Na época de lançamento, a Microsoft prometia recursos fantásticos e bem avançados para a época, como o suporte a arquivos MP3 e o famoso sistema Plug and Play, onde não seria mais necessário executar-se vários instaladores para se utilizar um componente de hardware. A ideia era maravilhosa, porém, o lançamento do sistema operacional causou uma grande decepção. Os recursos prometidos não funcionavam como era prometido, fora as constantes “telas azuis da morte”, muito em parte por causa de uma implementação deficiente do Plug and Play. Um recurso muito interessante que foi introduzido pelo Windows ME, que é a Restauração de Sistema, tinha um bug no mínimo bizarro com relação a determinadas datas. Ou seja: a Microsoft prometeu uma coisa e entregou outra completamente instável e que por muitas vezes dava a impressão de jamais ter sido testada. O resultado disso? O Windows ME é considerado um dos piores produtos de tecnologia lançados até hoje. Essa versão do Windows virou motivo de chacota no meio tecnológico. A Microsoft ficou com uma fama terrível graças às “telas azuis da morte”, fama que persiste até os dias de hoje. Faltaram testes no desenvolvimento do Windows ME? Talvez... Era a impressão que grande parte das pessoas tinham. E isso causou um grande estrago na estratégia comercial e na imagem da Microsoft.
+
+Já parou para pensar porque os bens consumíveis que compramos, não possuem tantos bugs como os softwares que desenvolvemos? Simplesmente por um motivo: realização excessiva de testes, testes de diversos tipos e com diferentes situações.
+
+É claro que sabemos que nunca conseguiremos chegar a 100% de perfeição, pois existem situações específicas e muitas vezes inimagináveis, assim como ocorre com os problemas em carros, TVs e outros produtos. Mas temos que ter em mente que, durante o desenvolvimento de um software, nosso objetivo final é entregar ao cliente exatamente o que foi pedido, garantindo a máxima qualidade e estabilidade possível.
+
+Como atingir isso? Utilizando diferentes metodologias e ferramentas para realização de testes das mais variadas classes.
+
+Será isso que veremos neste curso, onde abordaremos TDD (Test Driven Development) e algumas ferramentas de teste que podemos utilizar juntamente com a plataforma .NET e o Visual Studio.
