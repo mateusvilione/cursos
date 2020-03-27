@@ -234,3 +234,89 @@ Criar a classe, o xUnit não usa as anotações
 Adicionar a referência ao projeto
 
 ![alt text](./img/aula4/33.png " ")
+
+---
+
+## Exercícios
+
+Questão 1 de 4
+Complete o código abaixo, de forma que ele defina uma classe de teste do xUnit.NET corretamente.
+```c#
+public class ContaTests
+{
+     
+	[Fact]
+    public void DebitoComSaldoValido()
+    {
+        // arrange
+        double saldoInicial = 11.99;
+        double debito = 4.55;
+        double esperado = 7.44;
+        
+        Conta conta = new Conta("Carlos Silva", saldoInicial);
+        
+        // act
+        conta.Debito(debito);
+        
+        // assert
+        double atual = conta.Saldo;
+        Assert.Equal(esperado, atual, 0.001);
+    }
+} 
+```
+
+Questão 2 de 4 errado
+Complete corretamente a afirmação abaixo:
+É dentro das `test class` que se define os `métodos` que contém os testes unitários que deverão ser executados .
+
+Questão 3 de 4
+Complete o código abaixo, de forma que ele defina uma classe de teste do NUnit corretamente.
+```c#
+[TestFixture]
+public class ContaTests
+{
+    [Test] 
+    public void DebitoComSaldoValido()
+    {
+        // arrange
+        double saldoInicial = 11.99;
+        double debito = 4.55;
+        double esperado = 7.44;
+        
+        Conta conta = new Conta("Carlos Silva", saldoInicial);
+        
+        // act
+        conta.Debito(debito);
+        
+        // assert
+        double atual = conta.Saldo;
+        Assert.AreEqual(esperado, atual, 0.001, "Conta não debitada corretamente");
+    }
+} 
+```
+
+Questão 4 de 4
+Complete o código abaixo, de forma que ele defina uma classe de teste corretamente.
+```c#
+[TestClass]
+public class ContaTests
+{
+	[TestMethod]
+    public void DebitoComSaldoValido()
+    {
+        // arrange
+        double saldoInicial = 11.99;
+        double debito = 4.55;
+        double esperado = 7.44;
+        
+        Conta conta = new Conta("Carlos Silva", saldoInicial);
+        
+        // act
+        conta.Debito(debito);
+        
+        // assert
+        double atual = conta.Saldo;
+        Assert.AreEqual(esperado, atual, 0.001, "Conta não debitada corretamente");
+    }
+} 
+```

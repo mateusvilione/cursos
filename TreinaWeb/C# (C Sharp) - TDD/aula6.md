@@ -85,10 +85,7 @@ Os testes podem servir como autocomplete do sistema.
 
 Questão 2 de 3
 Complete corretamente a afirmação abaixo:
-Geralmente , o resultado de um software que não é corretamente 
- é uma aplicação 
- e , muitas vezes , até 
- .
+Geralmente , o resultado de um software que não é corretamente `testado` é uma aplicação `instável` e , muitas vezes , até `inoperante`.
 
  Questão 3 de 3
 O que é o Test-Driven-Development?
