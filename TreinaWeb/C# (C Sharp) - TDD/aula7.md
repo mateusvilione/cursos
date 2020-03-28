@@ -55,6 +55,15 @@ Gravar a tela, executar o .exe no build, também é exibido no Test Explorer
 
 ## Testes de interface com Selenium - Parte 1
 
+Adicionar na solução um projeto Web
+
+![alt text](./img/aula7/5.png " ")
+
+![alt text](./img/aula7/6.png " ")
+
+![alt text](./img/aula7/7.png " ")
+
+Definir como projeto de inicialização
 
 
 ---
