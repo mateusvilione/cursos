@@ -22,7 +22,7 @@ Tags são marcações que tem seu nome entre “<” e “>”, como no exemplo:
 <p>Meu Texto</p>
 ```
 
-“p” é o nome da tag que indica um parágrafo. “<p>” é o que chamamos de tag de abertura, pois ela inicia a marcação da tag. Para fechar uma tag utilizamos a mesma tag de abertura, com a diferença que temos o sinal “/” antes do nome, como “</p>”. O que existe entre a tag de abertura e tag de fechamento é o que chamamos de conteúdo ou filho da tag.
+“p” é o nome da tag que indica um parágrafo. `“<p>”` é o que chamamos de tag de abertura, pois ela inicia a marcação da tag. Para fechar uma tag utilizamos a mesma tag de abertura, com a diferença que temos o sinal “/” antes do nome, como `“</p>”`. O que existe entre a tag de abertura e tag de fechamento é o que chamamos de conteúdo ou filho da tag.
 
 Ao receber esta tag, o navegador saberá que terá que exibir o texto “Meu Texto” em um parágrafo. Agora o seguinte código:
 
@@ -30,9 +30,9 @@ Ao receber esta tag, o navegador saberá que terá que exibir o texto “Meu Tex
 <b>Meu Texto</b>
 ```
 
-Como a tag “<b>” indica um texto em negrito, o navegador irá renderizar o texto em negrito.
+Como a tag `“<b>”` indica um texto em negrito, o navegador irá renderizar o texto em negrito.
 
-Também existem tags que não precisam ser fechadas. Isso ocorre com tags que não recebem conteúdo (ou filho), como as tags: <br />, <img />, <hr /> e <input />.
+Também existem tags que não precisam ser fechadas. Isso ocorre com tags que não recebem conteúdo (ou filho), como as tags: `<br />`, `<img />`, `<hr />` e `<input />`.
 
 ```html
 <img src="minha_imagem.png" />
@@ -40,13 +40,13 @@ Também existem tags que não precisam ser fechadas. Isso ocorre com tags que n�
 
 No exemplo acima estamos exibindo uma imagem de nome “minha_imagem.png”. Como não há o que passar de conteúdo para essa tag, ela não tem motivos para ter uma tag para abrir e outra para fechar.
 
-Note que ela mesma se fecha no final, com “/>”. No HTML5 a “/” é opcional, fazendo o seguinte código correto também:
+Note que ela mesma se fecha no final, com `“/>”`. No HTML5 a `“/”` é opcional, fazendo o seguinte código correto também:
 
 ```html
 <img src="minha_imagem.png">
 ```
 
-Porém, é uma boa prática colocar a “/”. Veremos melhor sobre essas tags no decorrer do curso.
+Porém, é uma boa prática colocar a `“/”`. Veremos melhor sobre essas tags no decorrer do curso.
 
 --- 
 

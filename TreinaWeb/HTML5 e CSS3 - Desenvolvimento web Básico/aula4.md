@@ -16,7 +16,7 @@ Vamos então ver como trabalhar com textos no HTML.
 <b>Meu Texto</b>
 ```
 
-Deixa o texto em negrito. Como o objetivo do HTML hoje em dia é estruturar documentos, a ideia de negrito perdeu o sentido, já que isso é estilizado pelo CSS. Hoje em dia, a indicação de negrito pelo HTML indica a importância de uma palavra ou texto. Para dar mais sentido, utilizamos a tag <strong>. Essa ideia de “sentido” será discutida melhor na aula em que comentaremos sobre semântica.
+Deixa o texto em negrito. Como o objetivo do HTML hoje em dia é estruturar documentos, a ideia de negrito perdeu o sentido, já que isso é estilizado pelo CSS. Hoje em dia, a indicação de negrito pelo HTML indica a importância de uma palavra ou texto. Para dar mais sentido, utilizamos a tag `<strong>`. Essa ideia de “sentido” será discutida melhor na aula em que comentaremos sobre semântica.
 
 ---
 
@@ -26,7 +26,7 @@ Deixa o texto em negrito. Como o objetivo do HTML hoje em dia é estruturar docu
 <i>Meu Texto</i>
 ```
 
-Deixa o texto em itálico. Agora serve para indicar um texto com ênfase, e sua tag semântica é a <em>.
+Deixa o texto em itálico. Agora serve para indicar um texto com ênfase, e sua tag semântica é a `<em>`.
 
 ---
 
@@ -36,7 +36,7 @@ Deixa o texto em itálico. Agora serve para indicar um texto com ênfase, e sua 
 <ins>Meu Texto</ins>
 ```
 
-Deixa o texto sublinhado. Indica um texto que foi inserido, em oposição à tag <del>.
+Deixa o texto sublinhado. Indica um texto que foi inserido, em oposição à tag `<del>`.
 
 ---
 
@@ -46,7 +46,7 @@ Deixa o texto sublinhado. Indica um texto que foi inserido, em oposição à tag
 <del>Meu Texto</del>
 ```
 
-Deixa o texto riscado. Indica um texto que foi removido, em oposição à tag <ins>.
+Deixa o texto riscado. Indica um texto que foi removido, em oposição à tag `<ins>`.
 
 ---
 
@@ -126,7 +126,7 @@ Define uma seção no texto. Não tem efeito na formatação, mas utilizaremos m
 <h1>Meu Texto</h1>
 ```
 
-Define um título de um texto. O título principal é definido pelo <h1>. Caso tenha um subtítulo, utilizaremos a tag <h2>. Existe até o <h6>.
+Define um título de um texto. O título principal é definido pelo `<h1>`. Caso tenha um subtítulo, utilizaremos a tag `<h2>`. Existe até o `<h6>`.
 
 Como H1 é o título principal e H2 indicaria o título de algum assunto de H1, a fonte de H2 é menor que H1, e assim por diante.
 
@@ -164,7 +164,7 @@ otxeT ueM
 </ruby>
 ```
 
-É mais utilizado para textos com palavras escritas com ideogramas. Funciona junto com a tag <rt>, onde passamos a leitura ou significado do ideograma. O texto de <rt> irá aparecer acima do caractere indicado pela tag <ruby>.
+É mais utilizado para textos com palavras escritas com ideogramas. Funciona junto com a tag `<rt>`, onde passamos a leitura ou significado do ideograma. O texto de `<rt>` irá aparecer acima do caractere indicado pela tag `<ruby>`.
 
 ---
 
@@ -181,13 +181,13 @@ Marque a frase correta sobre a estruturação de títulos:
 
 O número menor indica que o texto é de menor importância.
 
-Utiliza-se a tag <title>.
+Utiliza-se a tag `<title>`.
 
 O número maior indica um tamanho maior de fonte.
 
-Utiliza-se da tag <t1> à <t6>.
+Utiliza-se da tag `<t1>` à `<t6>`.
 
-✔ Utiliza-se da tag <h1> à <h6>.
+✔ Utiliza-se da tag `<h1>` à `<h6>`.
 
 
 Questão 2 de 3

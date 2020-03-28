@@ -35,13 +35,13 @@ Após baixar e instalar o editor para a versão do seu sistema operacional (Wind
 
 Esse é um documento HTML básico. Sempre que formos criar um documento novo ele deverá ter essa estrutura no mínimo.
 
-- <!DOCTYPE html> - indica ao navegador que este é um documento HTML5;
-- <html> - elemento raiz de uma página HTML;
-- <head> - elemento onde colocamos informações sobre o documento;
-- <title> - indica o título da página. Esse título aparece na aba do navegador;
-- <meta> - elemento opcional. Ele indica ao navegador algumas informações sobre o documento. Neste exemplo, indicamos que estamos escrevendo nosso documento com um grupo de caracteres chamado “utf-8”. Indicar o charset evita que o navegador interprete algum caractere de maneira errada, como por exemplo, exibir “c�o” ao invés de “cão”;
-- <body> - é o corpo do nosso documento.
-Dentro de <body> que escreveremos todos os nossos códigos.
+- `<!DOCTYPE html>` - indica ao navegador que este é um documento HTML5;
+- `<html>` - elemento raiz de uma página HTML;
+- `<head>` - elemento onde colocamos informações sobre o documento;
+- `<title>` - indica o título da página. Esse título aparece na aba do navegador;
+- `<meta>` - elemento opcional. Ele indica ao navegador algumas informações sobre o documento. Neste exemplo, indicamos que estamos escrevendo nosso documento com um grupo de caracteres chamado “utf-8”. Indicar o charset evita que o navegador interprete algum caractere de maneira errada, como por exemplo, exibir “c�o” ao invés de “cão”;
+- `<body>` - é o corpo do nosso documento.
+Dentro de `<body>` que escreveremos todos os nossos códigos.
 
 Também podemos escrever comentários no HTML. Comentários são textos que escrevemos apenas para deixar como uma anotação. Eles são ignorados pelo navegador, portanto não influenciam no código.
 
