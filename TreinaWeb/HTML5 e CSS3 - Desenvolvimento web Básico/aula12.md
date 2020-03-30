@@ -168,3 +168,38 @@ div{
 
 ---
 
+## Exercícios
+
+Questão 1 de 3
+Marque as opções verdadeiras:
+
+Escolha 2 respostas.
+As cores devem ser definidas no HTML.
+
+Podemos passar o nome das cores, como "background: verde".
+
+✔ A declaração de cores no fomato hexadecimal não aceita transparência.
+
+✔ A propriedade "opacity" muda a opacidade do elemento todo.
+
+A propriedade "color" serve para alterar a cor de um elemento.
+
+
+Questão 2 de 3
+Qual a vantagem de se utilizar o formato hexadecimal para a declaração de cores?
+
+Não sofre distorção.
+
+Deixa as cores mais nítidas.
+
+Aumenta a fidelidade de cor entre monitores diferentes.
+
+Melhora a performance dos navegadores, principalmente em dispositivos móveis.
+
+✔ É uma declaração mais curta e muito utilizada em softwares de edição de imagens.
+
+
+Questão 3 de 3
+Complete corretamente a afirmação abaixo:
+O formato 
+`hexadecimal` é o mais simples e mais utilizado em softwares de edição de imagens .

@@ -102,3 +102,43 @@ video
 
 ## Exercícios
 
+Questão 1 de 3
+Marque a frase verdadeira:
+
+O CSS funciona no servidor.
+
+Não há como escrever comentários no CSS.
+
+Comentários no CSS são declarados da mesma maneira que no HTML.
+
+Devemos declarar um novo CSS a cada página criada.
+
+✔ O CSS pode ser reutilizado em várias páginas.
+
+
+Questão 2 de 3
+Qual a sintaxe correta?
+
+✔ `body { background-color: red; }`.
+
+`body { backgroundColor: red; }`.
+
+`body ( background-color: red; )`.
+
+`body { background-color = red; }`.
+
+`body { background_color: red; }`.
+
+Questão 3 de 3
+Marque as alternativas corretas:
+
+Escolha 3 respostas.
+✔ CSS serve para estilizar o nosso HTML.
+
+✔ CSS é uma linguagem para definir a apresentação dos elementos HTML.
+
+CSS é uma linguagem de programação.
+
+✔ CSS pode ser inserido de três maneiras diferentes.
+
+CSS também serve para se criar elementos HTML.

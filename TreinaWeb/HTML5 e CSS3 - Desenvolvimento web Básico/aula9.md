@@ -307,27 +307,49 @@ O conteúdo da tag é o tempo apresentado ao usuário, o que ele irá ler. A tag
 
 ## O que é semântica?
 
-
+Vídeo
+usar as tag's corretas
 
 ---
 
 ## Elementos semânticos
 
-
-
-```HTML
-
-
-```
+Vídeo
+usar as tag's corretas
 
 ---
 
 ## Exercícios
 
+Questão 1 de 3
+Qual a importância da semântica?
+
+Para o usuário saber do que se trata cada elemento.
+
+Para facilitar a estilização com CSS.
+
+Para editores de texto interpretarem o código.
+
+✔ Para navegadores e robôs interpretarem melhor a nossa página.
+
+Para dividir o layout da nossa aplicação.
 
 
-```HTML
+Questão 2 de 3
+Complete corretamente a afirmação abaixo:
+`Search Engines` utilizam os valores semânticos do nosso código para compreender melhor a estrutura da nossa página .
 
 
-```
+Questão 3 de 3
+Em relação a criação de uma página mais semântica, marque as opções verdadeiras:
 
+Escolha 3 respostas.
+✔ Para layout é preferível utilizar divs do que tabelas
+
+✔ `<div>` e `<span>` são elementos não semânticos
+
+A tag `<nav>` define um grupo de links de navegação e pode ser utilizada somente dentro da tag `<header>`
+
+✔ Tags como Section, Main, Footer e Header diferem no valor semântico, mas não apresentam diferença visual entre elas.
+
+A tag `<time>` serve para o usuário entrar com um valor de tempo ou data como se fosse um input.
