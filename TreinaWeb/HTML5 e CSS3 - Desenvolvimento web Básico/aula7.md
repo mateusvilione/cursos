@@ -352,17 +352,50 @@ Neste exemplo, utilizamos o range e um campo de número que o usuário pode muda
 
 ---
 
-## 
+## Conhecendo os elementos de um formulário
 
-```HTML
+vídeo
 
-
-```
 ---
 
-## 
+## Exercícos
 
-```HTML
+Questão 1 de 3
+Como fazer com que vários radiobuttons sejam do mesmo grupo?
 
+Agrupando-os dentro de uma mesma tag.
 
-```
+Indicamos um nome de grupo para todas as tags.
+
+Deixar um ao lado do outro.
+
+Ocorre automaticamente quando criados dentro de um mesmo formulário.
+
+✔ Dar o mesmo "name" a todos.
+
+Questão 2 de 3
+Se campos como text, email, number e url possuem a mesma aparência, por que definir cada um deles?
+
+Para que os editores de texto interpretem o HTML corretamente.
+
+Para o usuário saber o que digitar.
+
+Exclusivamente para a validação do formulário.
+
+Para poder estilizar com CSS depois.
+
+✔ Pela semântica e para melhorar a experiência de usuários de dispositivos móveis.
+
+Questão 3 de 3
+Marque as opções que estão corretas em relação aos formulários:
+
+Escolha 2 respostas.
+Podemos fazer a tag input do tipo texto ter várias linhas.
+
+✔ A tag mais utilizada é a `<input />`, por disponibilizar vários meios de entrada diferentes.
+
+O input do tipo "reset" reinicia a página.
+
+✔ Formulários são usados sempre que precisarmos que o usuário nos forneça dados.
+
+Podemos indicar o destino do formulário com o atributo "sendTo".
