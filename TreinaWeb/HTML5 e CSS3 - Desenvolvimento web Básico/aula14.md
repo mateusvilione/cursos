@@ -610,9 +610,44 @@ Em execução:
 
 ---
 
+## Formatando textos com CSS
 
-```
-```
-```
-```
-```
+vídeo
+
+---
+
+## Exercícios
+
+Questão 1 de 3
+Complete corretamente a afirmação abaixo:
+Abusar da propriedade `text-shadow` pode dar problemas de performance .
+
+
+Questão 2 de 3
+Marque as opções falsas:
+
+Escolha 2 respostas.
+✔ Não há diferença entre formatar textos com CSS ou HTML.
+
+Podemos sublinhar um texto com "text-decoration".
+
+✔ Podemos usar o "font-style" para definir o nível do parágrafo entre H1 e H6.
+
+Alteramos o tamanho da fonte com "font-size".
+
+Fontes serifadas possuem continuações em suas extremidades.
+
+
+Questão 3 de 3
+Marque as opções verdadeiras:
+
+Escolha 2 respostas.
+O CSS possui valor semântico.
+
+"text-color" altera a cor da fonte.
+
+✔ "color" alterar a cor da fonte.
+
+Formatar com HTML sempre trás mais performance à página.
+
+✔ Com CSS podemos regular a distância entre letras, palavras e linhas.
