@@ -5,7 +5,7 @@ Várias vezes falamos aqui a palavra “semântica”. Mas o que ela quer dizer 
 
 Quando criamos uma página, precisamos marcar o que cada elemento dentro dela representa e qual é o papel de cada uma das estruturas ali presentes.
 
-![alt text](.\img\aula9\1.png " ")
+![alt text](./img/aula9/1.png " ")
 
 Olhe para a imagem acima. Vemos claramente um botão, um pequeno texto e um input (campo) para digitar um nome. Identificar estas estruturas visualmente foi fácil, não demoramos muito para conseguir assimilar o papel de cada uma delas, certo?
 
@@ -13,7 +13,7 @@ Assim como nós, o navegador também precisa chegar a essa conclusão, e para is
 
 Mas dentro de uma página, nunca criamos somente um botão ou um texto simples. Sempre criamos elementos mais complexos, elementos formados por outros elementos, como por exemplo um cabeçalho que pode conter um texto, um menu com vários botões, e assim por diante.
 
-![alt text](.\img\aula9\2.png " ")
+![alt text](./img/aula9/2.png " ")
 
 ---
 
@@ -48,7 +48,7 @@ Com o avanço do CSS, as pessoas começaram a parar de usar tabelas e a utilizar
 
 O problema é que as pessoas começaram a usar a tag `<div>` para tudo, o que no final das contas não melhorou a semântica em relação a usar `<table>`. Com o HTML5, novas tags foram criadas para dar mais significado ao código. Imagine a estrutura do seguinte blog:
 
-![alt text](.\img\aula9\3.png " ")
+![alt text](./img/aula9/3.png " ")
 
 Poderíamos estruturar basicamente das seguintes maneiras:
 
@@ -185,7 +185,7 @@ A tag `<summary>` serve para exibir um título para o `<details>`, que ficará s
 </details>
 ```
 
-![alt text](.\img\aula9\4.png " ")
+![alt text](./img/aula9/4.png " ")
 
 ---
 
@@ -208,7 +208,7 @@ Meu Texto
 <dialog open > Minha Modal </dialog>
 ```
 
-![alt text](.\img\aula9\5.png " ")
+![alt text](./img/aula9/5.png " ")
 
 Por padrão, o conteúdo da tag `<dialog>` fica escondido. Quando colocamos o atributo “open”, o conteúdo aparece, centralizado na tela e flutuando sobre o conteúdo.
 

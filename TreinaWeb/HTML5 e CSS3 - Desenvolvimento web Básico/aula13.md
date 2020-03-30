@@ -73,7 +73,7 @@ Imagine que a gente queira criar três colunas iguais que ocupem toda a largura 
 
 Nesse caso, devemos usar a %. Como a tela mede 100%, 100%/3 = 33.33333…%. Por ser uma dízima periódica, a soma das três colunas dará uma largura de 99.9999%, ou seja, nunca ocuparemos 100% da largura, deixando um pequeno espaço sobrando.
 
-![alt text](.\img\aula13\1.png " ")
+![alt text](./img/aula13/1.png " ")
 
 Podemos então, colocar algo como:
 
@@ -81,7 +81,7 @@ Podemos então, colocar algo como:
 width: calc( 100% / 3 );
 ```
 
-![alt text](.\img\aula13\2.png " ")
+![alt text](./img/aula13/2.png " ")
 
 Com isso, o próprio navegador irá cuidar do cálculo em tempo real. Podemos misturar várias unidades diferentes no cálculo, por exemplo: na imagem acima, coloquei bordas de 1px para podermos visualizar melhor a separação das colunas. Como cada coluna tem uma borda do lado direito e uma do lado esquerdo, isso quer dizer que acrescentamos 2 pixels a cada coluna. Então, para que elas não passem os 100% da linha, temos que descontar esses 2 pixels, resultando em:
 

@@ -71,7 +71,7 @@ O primeiro valor é para o tom da cor em relação à roda de cores:
 
 O primeiro valor é para o tom da cor em relação à roda de cores:
 
-![alt text](.\img\aula12\1.png " ")
+![alt text](./img/aula12/1.png " ")
 
 | Ângulo | Tom      |
 | -------| -------  |
@@ -145,7 +145,7 @@ div{
 <div>Meu Texto</div>
 ```
 
-![alt text](.\img\aula12\2.png " ")
+![alt text](./img/aula12/2.png " ")
 
 ### Borders
 Veremos melhor sobre bordas em uma futura aula. Aqui só vamos ver que é possível mudar a cor das bordas dos elementos.

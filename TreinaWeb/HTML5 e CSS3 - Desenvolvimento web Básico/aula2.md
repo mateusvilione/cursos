@@ -107,3 +107,4 @@ HTML é uma tecnologia que funciona nos servidores.
 O HTML é uma linguagem de programação.
 
 HTML foi uma tecnologia criada para desenvolver aplicativos.
+

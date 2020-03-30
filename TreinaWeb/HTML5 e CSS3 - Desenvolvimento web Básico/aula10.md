@@ -18,7 +18,7 @@ Como ideia, tente inventar um site para uma locadora, lanchonete, livraria ou lo
 
 Aqui um exemplo simples de lanchonete:
 
-![alt text](.\img\aula10\1.png " ")
+![alt text](./img/aula10/1.png " ")
 
 
 ```HTML

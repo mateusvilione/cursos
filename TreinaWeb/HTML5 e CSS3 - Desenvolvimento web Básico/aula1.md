@@ -70,7 +70,7 @@ Em desenvolvimento para a Web sempre separamos dois setores: a parte do servidor
 
 O cliente é o computador do usuário, assim como o seu. É utilizado pelas pessoas para acessar sites ou sistemas a partir de um endereço. Os arquivos vindos por esse endereço são disponibilizados por um outro computador que serve estes arquivos. Estes computadores que estão em algum lugar do mundo que servem arquivos e outros serviços são chamados de servidores.
 
-![alt text](./img/aula1/8.jpg " ")
+![alt text](./img/aula1/8.png " ")
 
 Nos servidores programamos com linguagens como PHP, Java, C#, Ruby, etc, e gerenciamos bancos de dados. Chamamos essa parte de back-end.
 

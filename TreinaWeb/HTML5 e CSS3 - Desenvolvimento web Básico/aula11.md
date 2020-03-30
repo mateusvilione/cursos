@@ -62,7 +62,7 @@ Neste modelo, indicamos no arquivo HTML que é necessário carregar um arquivo C
 ## Sintaxe
 Para estilizar um elemento, precisamos de apenas três itens:
 
-![alt text](.\img\aula11\1.png " ")
+![alt text](./img/aula11/1.png " ")
 
 *Seletor:* indica qual elemento queremos estilizar. Há inúmeras maneiras de se selecionar um ou vários elementos. Veremos as principais mais para frente.
 
