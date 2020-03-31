@@ -65,12 +65,152 @@ Adicionar na solução um projeto Web
 
 Definir como projeto de inicialização
 
+criar as páginas
 
 ---
 
 ## Testes de interface com Selenium - Parte 2
 
+Add o Selenium pelo nuGet Package no projeto xUnit
+
+![alt text](./img/aula7/11.png " ")
+
+Usar uma versão do chrome driver pro selenium
+
+![alt text](./img/aula7/12.png " ")
+
+criar uma classe de teste do chrome
+
+Baixar o chrome drive https://chromedriver.chromium.org/downloads
+
+E colocar na raiz do projeto de teste
+
+ir nas propriedades do chromedriver.exe e copiar sempre
+
+```c#
+using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Xunit;
+
+namespace TreinaWeb.Calculadora.xUnit
+{
+    public class ChromeTestes : IDisposable
+    {
+        // instancia do Webdrive
+        private IWebDriver _driver;
+
+        public ChromeTestes()
+        {
+            // instanciando o Chrome
+            _driver = new ChromeDriver();
+        }
+
+        public void Dispose()
+        {
+            // implementação da interface para finalizar os teste
+
+            if (_driver != null)
+            {
+                _driver.Close();
+            }
+        }
+
+        [Fact]
+        public void TestCadastro()
+        {
+            _driver.Navigate().GoToUrl("https://devradarr.netlify.com/");
+
+            // retorna um IWebElement
+            IWebElement txtGithub_username = _driver.FindElement(By.Id("github_username"));
+            txtGithub_username.SendKeys("Franzanella");
+                      
+            IWebElement txtTechs = _driver.FindElement(By.Id("techs"));
+            txtTechs.SendKeys("React, React Native, Node.js");
+
+            IWebElement btnSalvar = _driver.FindElement(By.CssSelector("form > button[type=submit]"));
+            btnSalvar.Click();
+
+            Assert.Equal("Franciele Zanella", "");
+
+
+        }
+    }
+}
+
+```
 
 ---
 
 ## Exercícios
+
+Questão 1 de 3
+Supondo o trecho de código de View MVC:
+```c#
+@using (Html.BeginForm())
+{
+
+    @Html.LabelFor(model => model.Nome) <br />
+    @Html.EditorFor(model => model.Nome) <br />
+
+    @Html.LabelFor(model => model.Idade) <br />
+    @Html.EditorFor(model => model.Idade) <br />
+
+    <input type="submit" value="Salvar" id="btnSalvar" class="btn btn-default" />
+
+    <label>Resultado:</label>
+    @Html.TextBoxFor(model => model.Status)
+}
+```
+Complete o código abaixo, de forma que ele realize um teste de interface com o Selenium:
+```c#
+public class TesteCliente
+{
+    [Fact]
+    public void TestMensagemSalvarCliente()
+    {
+         //*
+        var driver = new ChromeDriver();
+        driver.Navigate().GoToUrl("http://www.aplicacao.com/cliente/create");
+
+        var textBoxNome = driver.FindElement(By.Name("Nome"));
+        textBoxNome.SendKeys("Carlos Silva");
+
+        var textBoxIdade = driver.FindElement(By.Name("Idade"));
+        textBoxIdade.SendKeys("33");
+
+        driver.FindElementById("btnSalvar").Click();
+
+        var mensagemCheck = driver.FindElementByXPath("//p[contains(text(),'Cliente salvo com sucesso')]").Displayed;
+
+         //*
+ 
+        Assert.IsTrue(mensagemCheck, "Mensagem não localizada");
+    }
+} 
+
+```
+
+
+Questão 2 de 3
+Complete corretamente a afirmação abaixo:
+Não adianta se as unidades de um software funcionarem corretamente se sua 
+`integração` não ocorrer da maneira correta .
+
+
+Questão 3 de 3
+O que são Coded UI Tests?
+
+São testes automatizados realizados na base de dados da aplicação.
+
+São testes automatizados realizados no servidor, durante a publicação da aplicação.
+
+São testes automatizados realizados no código fonte da aplicação.
+
+Nenhuma das alternativas.
+
+✔ São testes automatizados realizados na interface do usuário.
