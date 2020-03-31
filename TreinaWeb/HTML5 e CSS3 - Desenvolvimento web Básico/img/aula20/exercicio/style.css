@@ -1,0 +1,123 @@
+/*  GERAL
+*****************************/
+
+hmlt, body {
+    height: 100%;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #161616;
+    color: white;
+}
+
+.section-background {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+
+.section-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.section-title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.section-text {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#place, #drink, #address {
+    position: absolute;
+    top: -85px;
+}
+
+/*  HEADER
+*****************************/
+.main-header {
+    position: relative;
+}
+
+.header-video {
+    width: 100%;
+}
+
+.navigatoin {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #3b3b3b;
+    z-index: 100;
+}
+
+.navigatoin-list {
+    padding: 0;
+}
+
+.navigatoin-list > li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.navigatoin-list > li > a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.navigatoin-list > li > a:hover {
+    color: #0079d0;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+}
+
+/*  O LUGAR
+*****************************/
+.lugar {
+    background-image: url('./src/img/bar_interior.jpg');
+}
+
+
+/*  NOSSOS DRINKS
+*****************************/
+.drinks{
+    background-image: url('./src/img/drinks_background.jpg');
+}
+
+.drink-img {
+    max-width: 20%;
+    margin-top: -30px;
+}
+
+/*  FOOTER
+*****************************/
+
+.main-footer {
+    position: relative;
+    padding: 10px;
+}
+
+.footer-section {
+    display: inline-block;
+    vertical-align: top;
+    width: calc( (100% / 3) -2px);
+    min-width: 230px;
+}
