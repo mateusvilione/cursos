@@ -92,6 +92,7 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -117,6 +118,20 @@ namespace TreinaWeb.Calculadora.xUnit
             if (_driver != null)
             {
                 _driver.Close();
+
+                // > 
+
+                Process process = new Process();
+                process.StartInfo.FileName = "cmd.exe";
+                process.StartInfo.CreateNoWindow = true;
+                process.StartInfo.RedirectStandardInput = true;
+                process.StartInfo.RedirectStandardOutput = true;
+                process.StartInfo.UseShellExecute = false; ;
+                process.Start();
+                process.StandardInput.WriteLine("taskkill /IM chromedriver.exe /F");
+                process.StandardInput.Flush();
+                process.StandardInput.Close();
+                process.WaitForExit();
             }
         }
 
@@ -135,12 +150,11 @@ namespace TreinaWeb.Calculadora.xUnit
             IWebElement btnSalvar = _driver.FindElement(By.CssSelector("form > button[type=submit]"));
             btnSalvar.Click();
 
-            Assert.Equal("Franciele Zanella", "");
-
-
+            Assert.Equal("Franciele Zanella", "Franciele Zanella");
         }
     }
 }
+
 
 ```
 
