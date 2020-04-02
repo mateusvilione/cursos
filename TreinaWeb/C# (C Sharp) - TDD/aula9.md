@@ -30,5 +30,79 @@ O projeto Moq está hospedado no GitHub em https://github.com/Moq Sua documenta�
 
 ## Criando mocks e fakes com o Moq
 
+Criar uma interface
+
+![alt text](./img/aula9/1.png " ")
+
+```c#
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TreinaWeb.Calculadora.Util
+{
+    public interface ICalculadora
+    {
+        int Somar(int a, int b);
+        int Subtrair(int a, int b);
+        int Dividir(int a, int b);
+        int Multiplicar(int a, int b);
+    }
+}
+```
+
+A Calculadora implementa a interface
+
+```c#
+public class Calculadora : ICalculadora
+```
+
+Add `Moq` o xUnit
+
+![alt text](./img/aula9/2.png " ")
+
+```c#
+using Moq;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Xunit;
+using TwCalc = TreinaWeb.Calculadora.Util;
+
+namespace TreinaWeb.Calculadora.xUnit
+{
+    public class SomaTests
+    {
+        // var dos Mocks
+        private TwCalc.ICalculadora _calc;
+        private Mock<TwCalc.ICalculadora> _mockCalc;
+
+
+        public SomaTests()
+        {
+            // instancia do mock
+            _mockCalc = new Mock<TwCalc.ICalculadora>();
+            _mockCalc.Setup(m => m.Somar(It.IsAny<int>(), It.IsAny<int>())).Returns(4);
+            _mockCalc.Setup(m => m.Somar(It.IsAny<int>(), -1)).Throws<ArgumentOutOfRangeException>();
+            _calc = _mockCalc.Object;
+        }
+
+        [Fact]
+        public void TestSomaNumerosPositivos()
+        {
+            Assert.Equal(4, _calc.Somar(2, 2));
+            _mockCalc.Verify(m => m.Somar(2, 2));
+        }
+    .
+    .
+    .
+    }
+}
+```
+
+---
+
 ## Exercícios
 
