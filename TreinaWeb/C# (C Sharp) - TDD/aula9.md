@@ -106,3 +106,67 @@ namespace TreinaWeb.Calculadora.xUnit
 
 ## Exercícios
 
+Questão 1 de 3
+O que é um mock?
+
+Um tipo de teste de unidade que possui um timer de execução.
+
+Um tipo de teste de unidade que realiza o teste em menos de 5 segundos.
+
+✔ Um objeto que simula de maneira pré-definida o comportamento de outros objetos.
+
+Um objeto que simula de maneira pré-definida o comportamento dos objetos de Object.
+
+Uma classe que simula de maneira pré-definida o comportamento de outras classes.
+
+Nenhuma das alternativas.
+
+
+Questão 2 de 3
+Selecione abaixo os benefícios do uso de mock.
+
+Escolha 2 respostas.
+Limita a um tempo específico o tempo de execução de todos os testes de unidade da aplicação.
+
+Otimiza a execução de todos os testes de unidade da aplicação.
+
+✔ Evita a necessidade de se preparar o ambiente para a realização de testes.
+
+Nenhuma das alternativas.
+
+✔ Agiliza o desenvolvimento e execução dos testes de unidade.
+
+
+Questão 3 de 3
+Complete o código abaixo, de forma que ele defina corretamente um Mock:
+```c#
+public class Mensagem 
+{
+    public bool Enviar(string msg){
+        Proxy.send(msg);
+        return true;
+    }
+}
+
+public interface IMensagem {
+   bool Enviar(string);
+}
+
+
+public class TesteMensagem
+{
+    [Fact]
+    public void TestEnvioMensagem()
+    {
+         
+        var mock = new Mock<IMensagem>();
+        mock.Setup(m => m.Enviar(It.IsAny<string>())).Returns(true);
+
+        var mensagem = mock.Object;
+
+        var msg = mensagem.Enviar("ping");
+ 
+        Assert.IsTrue(msg, "Mensagem não enviada");
+    }
+} 
+```
