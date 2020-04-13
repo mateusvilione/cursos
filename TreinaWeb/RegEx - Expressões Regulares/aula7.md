@@ -54,8 +54,8 @@ ADVERTÊNCIA: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting pr
 ADVERTÊNCIA: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property "source" to "org.eclipse.jst.jee.server:TreinaWebJersey" did not find a matching property.
 INFORMAÇÕES: Server version:        Apache Tomcat/8.0.30
 INFORMAÇÕES: Server number:         8.0.30.0
-158 Complete o código abaixo, de forma que ele defina uma expressão regular que deve pegar todas linhas do texto que começarem com a palavra "ADVERTÊNCIA" e possuam a palavra "TreinaWeb", com capitalização ou não.
 ```
+158 Complete o código abaixo, de forma que ele defina uma expressão regular que deve pegar todas linhas do texto que começarem com a palavra "ADVERTÊNCIA" e possuam a palavra "TreinaWeb", com capitalização ou não.
 
 `/^ADVERTÊNCIA.{1,}.*[Tt]reina[Ww]eb.{1,}/gm`
 
@@ -68,7 +68,7 @@ ADVERTÊNCIA: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting pr
 ADVERTÊNCIA: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property "source" to "org.eclipse.jst.jee.server:TreinaWebJersey" did not find a matching property.
 INFORMAÇÕES: Server version:        Apache Tomcat/8.0.30
 INFORMAÇÕES: Server number:         8.0.30.0
-Complete o código abaixo, de forma que ele defina uma expressão regular que deve pegar todas linhas do texto que começarem com a palavra "ADVERTÊNCIA" e possuam a palavra "Jersey".
 ```
+Complete o código abaixo, de forma que ele defina uma expressão regular que deve pegar todas linhas do texto que começarem com a palavra "ADVERTÊNCIA" e possuam a palavra "Jersey".
 
 `/^ADVERTÊNCIA.{1,}.*Jersey.{1,}/gm`
