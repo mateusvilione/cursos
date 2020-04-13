@@ -15,7 +15,7 @@ Exemplos:
 
 ---
 
-## Utilizando quantificadores em expressões regulares
+## RegEx e operadores lógicos: operação AND
 
 Vídeo: 
 
