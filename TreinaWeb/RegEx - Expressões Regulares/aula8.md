@@ -7,7 +7,7 @@ Por muitas vezes, nós precisamos de condições lógicas dentro de nossas expre
 
 | Meta-caractere | Utilização | Sintaxe |
 | -------------- | ---------- | ------- |
-| "|" | Meta-caractere que realiza a operação lógica OR. As expressões envolvidas na operação OR deverão obrigatoriamente estar entre parênteses | `/(<expressão1>|<expressão2>)/` |
+| “|” | Meta-caractere que realiza a operação lógica OR. As expressões envolvidas na operação OR deverão obrigatoriamente estar entre parênteses | `/(<expressão1>|<expressão2>)/` |
 
 Exemplos:
 
