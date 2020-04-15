@@ -37,3 +37,42 @@ Vídeo:
 ## Exercícios
 
 
+Questão 1 de 3
+Supondo o texto abaixo:
+
+```
+ADVERTÊNCIA: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property "source" to "org.eclipse.jst.ejb.server:treinawebJEE" did not find a matching property.
+ADVERTÊNCIA: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property "source" to "org.eclipse.jst.jee.server:TreinaWebJersey" did not find a matching property.
+INFORMAÇÕES: Server version:        Apache Tomcat/8.0.30
+INFORMAÇÕES: Server number:         8.0.30.0
+```
+
+Complete o código abaixo, de forma que ele defina uma expressão regular que deve trazer todas as palavras finalizadas com ponto (.).
+
+`/ [a-zA-Z]+(?=\.)\b /gm`
+
+Questão 2 de 3
+Qual é a função do meta-caractere "(?!)" na expressão regular?
+
+Indicar o caractere de igualdade.
+
+Nenhuma das alternativas.
+
+✔ Indicar que um caractere que não deve preceder o caractere a esquerda.
+
+Indicar que um caractere que deve preceder o caractere a esquerda.
+
+Indicar que o caractere à esquerda deve ocorrer uma vez.
+
+Questão 2 de 3
+Qual é a função do meta-caractere "(?=)" na expressão regular?
+
+Indicar que o caractere à esquerda deve ocorrer uma vez.
+
+Nenhuma das alternativas.
+
+Indicar que um caractere que não deve preceder o caractere a esquerda.
+
+Indicar o caractere de igualdade.
+
+✔ Indicar que um caractere que deve preceder o caractere a esquerda.
