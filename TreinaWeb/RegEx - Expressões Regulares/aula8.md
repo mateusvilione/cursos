@@ -17,7 +17,7 @@ O meta-caractere “|” é também chamado de “meta-caractere de alternação
 
 ---
 
-## ## RegEx e operadores lógicos: operação OR
+## RegEx e operadores lógicos: operação OR
 
 Vídeo: 
 

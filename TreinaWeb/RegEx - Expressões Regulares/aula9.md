@@ -15,7 +15,7 @@ Exemplos:
 
 ---
 
-## ## RegEx e operadores lógicos: operação NOT
+## RegEx e operadores lógicos: operação NOT
 
 Vídeo: 
 
